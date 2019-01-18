@@ -1,10 +1,10 @@
 ---
 layout: home
 ---
-# About Theme
+# Biu Blog
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+biyu / biu
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+中国科学技术大学 信息科学技术学院信息安全专业
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+National Music Orchestra of USTC 中科大民乐团
