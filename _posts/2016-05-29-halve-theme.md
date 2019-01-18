@@ -5,11 +5,8 @@ date:   2016-05-29
 excerpt: "Stylish, two-column Jekyll theme for your blog."
 tag:
 - jekyll 
-- halve
 - blog
-- vangeltzo
 - theme
-- vangelis
 ---
 
 <a href="{{ site.url }}/images/halve-home-image.png"><img src="{{ site.url }}/images/halve-home-image.png" alt="Home Page of Halve"></a>  
