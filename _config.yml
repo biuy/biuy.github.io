@@ -54,7 +54,6 @@ steam:              <biu></biu>
 #hackernews:        username
 #behance:           username
 
-
 # Gems
 gems:
   - jekyll-feed
