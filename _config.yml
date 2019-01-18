@@ -1,6 +1,6 @@
 # Site
 title: biu
-description: Stylish, Two-Column Jekyll Theme
+description: 在可预见的未来，大家都是沙雕
 url: https://biuy.github.io
 logo: halve.jpeg                                      # Site logo
 locale: en_US
@@ -29,12 +29,12 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:             atbybiu@gmail.com
 #google.plus:        username
-twitter:            username
+#twitter:            username
 #facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+github:             biuy
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
@@ -42,7 +42,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
-#steam:              username
+steam:              <biu></biu>
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
@@ -52,7 +52,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           username
 
 # Gems
 gems:
