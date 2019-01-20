@@ -2,7 +2,7 @@
 layout: post
 title:  "Android Studio SDK 下载"
 date:   2019-01-20
-excerpt: "互联网大环境"
+excerpt: "没有VPN又没有钱"
 tag:
 - Android
 - 笔记
@@ -11,6 +11,16 @@ tag:
 # Android Studio SDK 下载
 
 ### 没有VPN又没有钱
+
+> Android Studio版本
+
+```
+Android Studio 3.2.1
+Build #AI-181.5540.7.32.5056338, built on October 9, 2018
+JRE: 1.8.0_152-release-1136-b06 x86_64
+JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+macOS 10.14.2
+```
 
 #### 1. 打开 Prefernces 设为No proxy
 
@@ -44,7 +54,7 @@ ping 203.208.40.64
 >
 > Mac: \etc\hosts
 
-再次打开`Prefernces`
+再次打开`Preferences`
 
 ![](https://ws1.sinaimg.cn/large/006tNc79ly1fzd8rmpy3lj31850u0qfn.jpg)
 
