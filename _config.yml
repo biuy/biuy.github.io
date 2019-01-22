@@ -55,6 +55,14 @@ steam:              76561198843500392
 #behance:           username
 tencent:            819774119
 
+#leancloud
+leancloud:
+  enable: true
+  app_id: xxxxxxxxxxxxxxx
+  app_key: xxxxxxxxxxxxxxx
+
+
+
 # Gems
 gems:
   - jekyll-feed

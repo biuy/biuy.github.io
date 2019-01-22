@@ -35,6 +35,17 @@ layout: compress
       </a>
       <div class="inner-post content">
         <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
+
+        {% if site.leancloud.enable %}
+        <div>
+          <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+            Visited:
+            <a href="#"><span class="leancloud-visitors-count"></span>次</a>
+          </span>
+        </div>
+        {% endif %}
+
+        
         {{ content }}
         <br>         
         {% include share.html %}
@@ -62,5 +73,6 @@ layout: compress
         <!-- Gitalk end -->
     {% include scripts.html %}
     {% include overlay.html %}
+    {% include footer.html %}
 </body>
 </html>
