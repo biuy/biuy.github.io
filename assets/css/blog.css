@@ -7,3 +7,6 @@ a {
 a:hover {
   color:#399f62;
 }
+blockquote {
+	border-left: 5px dotted #399f62;
+}
