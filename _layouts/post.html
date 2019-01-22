@@ -47,6 +47,7 @@ layout: compress
 
         <!-- Link Gitalk 的支持文件  -->
         <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script> 
+        <script src="{{ site.baseurl }}/js/md5.min.js"></script>
         <script type="text/javascript">
             var gitalk = new Gitalk({
             clientID: `5f082d4bb4bb247e049f`,
@@ -54,7 +55,7 @@ layout: compress
             repo: `biuy.github.io`,
             owner: 'biuy',
             admin: ['biuy'],
-            id: location.pathname,
+            id: md5(location.href),
             distractionFreeMode: false
             });
             gitalk.render('gitalk-container');
