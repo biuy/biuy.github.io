@@ -39,6 +39,27 @@ layout: compress
         <br>
         {% include share.html %}
         {% include page-pagination.html %}
+        <!-- Gitalk 评论 start  -->
+
+        <!-- Link Gitalk 的支持文件  -->
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script> 
+        <div id="gitalk-container"></div>     <script type="text/javascript">
+            var gitalk = new Gitalk({
+
+            // gitalk的主要参数
+            clientID: `5f082d4bb4bb247e049f`,
+            clientSecret: `aa2a9354fcde9ff9a6b46f0ecb71685333528ce7`,
+            repo: `biuy.github.inner-post`,
+            owner: 'biuy',
+            admin: ['biuy'],
+            id: 'location.pathname',
+            
+            });
+            gitalk.render('gitalk-container');
+        </script> 
+        <!-- Gitalk end -->
+
       </div>
     </div>
     {% include scripts.html %}
