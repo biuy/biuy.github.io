@@ -302,7 +302,6 @@ canvas {
   margin: 0 auto;
   h1,
   h2 {
-    font-weight: 200;
     font-size: 30px;
     position: relative;
     margin-top: 0;
@@ -392,7 +391,7 @@ canvas {
 .main-info {
   color: $white;
   h1 {
-    font-weight: lighter;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
