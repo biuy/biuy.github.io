@@ -36,16 +36,7 @@ layout: compress
       <div class="inner-post content">
         <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
 
-        {% if site.leancloud.enable %}
-        <span id="{{ page.url }}" class="leancloud_visitors meta_data_item" data-flag-title="{{ page.title }}">
-             <span class="post-meta-item-icon">
-               <span class="octicon octicon-eye"></span> 
-             </span>
-             <span class="old-visitors-count" style="display: none;"></span>
-             <span class="leancloud-visitors-count"></span>
-             <span class="post-meta-item-text">次浏览</span>
-        </span>
-        {% endif %}
+        
 
 
         {{ content }}
@@ -75,6 +66,6 @@ layout: compress
         <!-- Gitalk end -->
     {% include scripts.html %}
     {% include overlay.html %}
-   
+    {% include footer.html %}
 </body>
 </html>
