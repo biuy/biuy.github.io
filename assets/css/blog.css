@@ -9,4 +9,8 @@ a:hover {
 }
 blockquote {
 	border-left: 5px dotted #399f62;
+	font-style: SF UI Text;
+}
+code {
+	color: grey;
 }
