@@ -1,6 +1,9 @@
 .h1,.h2,.h3,h1,h2,h3 {
 	font-weight: 200;
 }
+body {
+	color: black;
+}
 a {
   color:#399f62;
 }
@@ -9,8 +12,9 @@ a:hover {
 }
 blockquote {
 	border-left: 5px dotted #399f62;
-	font-style: SF UI Text;
+	font-style: "SF UI Text";
 }
 code {
-	color: grey;
+	color: black;
+	background-color: #e2f0ff;
 }
