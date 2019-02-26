@@ -55,13 +55,6 @@ steam:              76561198843500392
 #behance:           username
 tencent:            819774119
 
-#leancloud
-leancloud:
-  enable: true
-  app_id: zPptrtDxhlgQyT7PEajXSIqT-gzGzoHsz
-  app_key: 1il3vLoFdaPdUuFjMljMNxmv
-
-
 
 # Gems
 gems:
