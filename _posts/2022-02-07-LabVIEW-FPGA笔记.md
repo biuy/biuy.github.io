@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LabVIEW FPGA笔记"
-date:   2019-03-01
+date:   2022-02-07
 excerpt: "LabVIEW语言学习的一些笔记"
 tag:
 - LabVIEW
