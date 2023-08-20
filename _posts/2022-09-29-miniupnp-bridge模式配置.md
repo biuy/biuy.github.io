@@ -1,3 +1,15 @@
+---
+layout: post
+title:  "miniupnp bridge模式配置"
+date:   2019-03-01
+excerpt: "因为网上没有适用docker bridge模式的upnp，但是真的很需要"
+tag:
+- docker
+- 笔记
+---
+
+> 在Docker里的设备也想要达到映射公网型，希望把主机自身作为路由器，docker0网卡作为网关，然后在主机上也能开启uPnP。
+
 # 以bridge模式运行Docker
 ## 1.运行甜糖Docker
 
