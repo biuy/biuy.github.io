@@ -134,7 +134,7 @@ systemctl status miniupnpd # 判断运行状态
 
 iptables -t nat -vnL # 在Chain MINIUPNPD应该出现很多DNAT项，可能需要等很久。
 ```
-
+![image-20220208172425576](../assets/img/image-2023-08-20.png)
 出现新的DNAT意味着upnp协议在正常进行。可以tcpdump抓包查看。例如 `nohup tcpdump -i any -w test.pcap &`
 最后能在app中看到网络类型0，节点类型高。
 
