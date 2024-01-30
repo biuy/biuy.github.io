@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  “Mac 上 Human Resource Machine 更改中文”
+title:  "Mac 上 Human Resource Machine 更改中文"
 date:   2023-12-29
-excerpt: “Epic免费领的程序员升职记改中文方法。”
+excerpt: "Epic免费领的程序员升职记改中文方法。"
 tag:
 - 笔记
 ---

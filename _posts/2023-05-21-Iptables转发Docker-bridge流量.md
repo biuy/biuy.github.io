@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  “Iptables 转发 Docker bridge 流量”
+title:  "Iptables 转发 Docker bridge 流量"
 date:   2023-05-21
-excerpt: “记录一下怎么用iptables转发bridge模式下的Docker流量”
+excerpt: "记录一下怎么用iptables转发bridge模式下的Docker流量"
 tag:
 - docker
 - 笔记
